@@ -1,0 +1,25 @@
+{
+  "name": "jackpot-annuity",
+  "version": "0.1.0",
+  "description": "Cent-exact growing annuity schedules, present value and CSV export for Node.js and browsers.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": { ".": { "types": "./src/index.d.ts", "import": "./src/index.js", "default": "./src/index.js" } },
+  "bin": { "jackpot-annuity": "./bin/jackpot-annuity.js" },
+  "files": ["src", "bin", "examples", "CHANGELOG.md"],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/index.js && node --check bin/jackpot-annuity.js",
+    "verify:package": "node scripts/verify-package.js",
+    "prepublishOnly": "npm run check && npm test && npm run verify:package"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT",
+  "author": "Jackpot Calculator",
+  "homepage": "https://jackpotcalculator.com/lottery-annuity-calculator/",
+  "repository": { "type": "git", "url": "git+https://github.com/jiankn/jackpot-annuity.git" },
+  "bugs": { "url": "https://github.com/jiankn/jackpot-annuity/issues" },
+  "keywords": ["annuity", "present-value", "cash-flow", "lottery", "csv", "calculator"],
+  "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" }
+}
