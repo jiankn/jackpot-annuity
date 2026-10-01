@@ -49,6 +49,8 @@ CLI rates are percentages: `--growth 5` means 5%. Defaults: 30 payments, 5% grow
 
 Serve this repository with any static HTTP server and open `examples/`. It includes input controls, a payment table, present-value comparison and a CSV download. No analytics or network calls are used by the calculator.
 
+The [hosted browser demo](https://jiankn.github.io/jackpot-annuity/examples/) and [API documentation](https://jiankn.github.io/jackpot-annuity/docs/) are deployed from this repository.
+
 ```sh
 python -m http.server 4187 --bind 127.0.0.1
 # Open http://127.0.0.1:4187/examples/
