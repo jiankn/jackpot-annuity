@@ -51,6 +51,8 @@ Serve this repository with any static HTTP server and open `examples/`. It inclu
 
 The [hosted browser demo](https://jiankn.github.io/jackpot-annuity/examples/) and [API documentation](https://jiankn.github.io/jackpot-annuity/docs/) are deployed from this repository.
 
+The [Read the Docs documentation](https://jackpot-annuity.readthedocs.io/en/latest/) includes the API, formulas and executable examples. For a reproducible CSV comparison with a separately supplied cash quote, see the [worked example](https://jiankn.github.io/jackpot-annuity/docs/cash-offer.html).
+
 ```sh
 python -m http.server 4187 --bind 127.0.0.1
 # Open http://127.0.0.1:4187/examples/
