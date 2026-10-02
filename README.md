@@ -6,14 +6,6 @@ This is the standalone annuity component from [Jackpot Calculator](https://jackp
 
 ## Install
 
-While npm registry publication awaits account authorization, install the tested release tarball:
-
-```sh
-npm install https://github.com/jiankn/jackpot-annuity/releases/download/v0.1.0/jackpot-annuity-0.1.0.tgz
-```
-
-After registry publication, the standard installation is:
-
 ```sh
 npm install jackpot-annuity
 ```

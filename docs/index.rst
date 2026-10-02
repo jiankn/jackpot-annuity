@@ -19,12 +19,9 @@ This package models payments before tax. It does not fetch live jackpots.
 Installation
 -----------------
 
-Until npm registry publication completes, install the tested GitHub release
-tarball. After publication, ``npm install jackpot-annuity`` is also available.
-
 .. code-block:: sh
 
-   npm install https://github.com/jiankn/jackpot-annuity/releases/download/v0.1.0/jackpot-annuity-0.1.0.tgz
+   npm install jackpot-annuity
    npx jackpot-annuity 450M --format csv > schedule.csv
 
 Source and bugs
