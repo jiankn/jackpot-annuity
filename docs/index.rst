@@ -15,6 +15,7 @@ This package models payments before tax. It does not fetch live jackpots.
    api
    formulas
    examples
+   cash-offer
 
 Installation
 -----------------
