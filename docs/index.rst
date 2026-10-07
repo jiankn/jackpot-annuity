@@ -25,6 +25,14 @@ Installation
    npm install jackpot-annuity
    npx jackpot-annuity 450M --format csv > schedule.csv
 
+Related
+-------
+
+* `Export annuity schedules to CSV without losing cents <https://dev.to/jiankn/export-annuity-schedules-to-csv-without-losing-cents-2e92>`_
+  is a step-by-step tutorial built on this package.
+* The `Jackpot Annuity editor extension <https://open-vsx.org/extension/jiankn/jackpot-annuity>`_
+  on Open VSX generates CSV or JSON schedules inside VS Code or VSCodium, offline.
+
 Source and bugs
 --------------------
 

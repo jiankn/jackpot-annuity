@@ -64,6 +64,11 @@ Browser imports can also use a pinned published npm version:
 import { calculateAnnuity } from 'https://unpkg.com/jackpot-annuity@0.1.0/src/index.js';
 ```
 
+## Related
+
+- [Export annuity schedules to CSV without losing cents](https://dev.to/jiankn/export-annuity-schedules-to-csv-without-losing-cents-2e92): a step-by-step DEV tutorial built on this package.
+- [Jackpot Annuity for VS Code / VSCodium](https://open-vsx.org/extension/jiankn/jackpot-annuity) on Open VSX: generate CSV or JSON schedules from the editor, offline.
+
 ## API and limits
 
 | Function | Input | Output |
